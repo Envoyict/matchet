@@ -1,0 +1,18 @@
+.nav{
+    display: flex;
+align-items: center;
+justify-content: space-between;
+text-decoration: none;
+padding: 16px;}
+.nav a{text-decoration: none;
+display: flex;
+padding: 15px;}
+.nav ul{display:flex;
+list-style: none;
+}
+
+@media screen and (max-width:425px){
+    .nav ul{display: none;
+    margin:50px}
+    
+}
